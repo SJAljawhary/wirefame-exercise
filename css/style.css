@@ -1,0 +1,39 @@
+ header{
+    background-color:grey;
+    height:90px;
+
+    
+}
+ header img{
+    float: left;
+    padding: 10px;
+    margin-left:40px;
+    
+}
+ nav ul li{
+    display: inline;
+    margin: 45px;
+   
+ }
+     
+
+
+#last{
+    
+    padding-left:162px;
+    float:left;
+    margin: 0px 15px 15px 0px;
+}
+
+#two{
+    
+
+}
+
+footer{
+    background-color:grey;
+    height:90px;
+}
+section{
+    margin:50px
+}
