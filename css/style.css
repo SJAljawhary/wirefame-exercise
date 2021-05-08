@@ -1,39 +1,64 @@
  header{
     background-color:grey;
     height:90px;
-
-    
 }
+
  header img{
     float: left;
-    padding: 10px;
-    margin-left:40px;
+    padding-top: 10px;
+    margin-left:185px;
     
 }
- nav ul li{
-    display: inline;
-    margin: 45px;
+li{
+    display: inline-block;
+    margin: 35px 65px 20px 65px;
    
- }
-     
-
-
-#last{
-    
-    padding-left:162px;
-    float:left;
-    margin: 0px 15px 15px 0px;
 }
-
-#two{
+ul{
     
-
+    display: flex;
+    align-items: center;
 }
+article{
+    text-align: center;
+    margin-bottom: 30px;
+}   
 
+#one{
+    width: 100%;
+    padding-right: 375px;
+}
+#one img{
+    margin-left: 150px;
+    width: 40%;
+    float: left;
+}
+#one h2,p{
+    width: 30%;
+    margin-right: 150px;
+    float: right;
+}
+#one button{
+    margin-right: 500px;
+}
+#one p{
+    overflow:scroll;
+}
+#two :first-child{
+    margin-right:25px;    
+}
+#two :last-child{
+    margin-left: 25px;
+}
 footer{
+    clear: both;
     background-color:grey;
     height:90px;
 }
 section{
     margin:50px
+}
+h2{
+    font-size: 20px;
+    font-weight: bold ;
 }
