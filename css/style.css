@@ -1,17 +1,22 @@
  header{
     background-color:grey;
     height:90px;
+    margin-bottom:100px;
 }
 
  header img{
     float: left;
     padding-top: 10px;
-    margin-left:185px;
+    margin-left:195px;
     
+}
+nav ul li a{
+    color: white;
 }
 li{
     display: inline-block;
-    margin: 35px 65px 20px 65px;
+    margin: 30px 30px 30px 30px;
+    
    
 }
 ul{
@@ -24,31 +29,34 @@ article{
     margin-bottom: 30px;
 }   
 
-#one{
+article:nth-child(3){
     width: 100%;
     padding-right: 375px;
 }
-#one img{
+article:nth-child(3) img{
     margin-left: 150px;
     width: 40%;
     float: left;
 }
-#one h2,p{
+article:nth-child(3) h2,p{
     width: 30%;
-    margin-right: 150px;
-    float: right;
+    margin-left: 70px;
+    float: left;
+    text-align: left;
 }
-#one button{
+article:nth-child(3) button{
     margin-right: 500px;
 }
-#one p{
-    overflow:scroll;
+article:nth-child(3) p{
+    overflow:auto;
+    height: 300px;
+    position: relative;
 }
-#two :first-child{
-    margin-right:25px;    
-}
-#two :last-child{
-    margin-left: 25px;
+
+article:nth-child(2) img{
+    margin-left: 13px;
+    margin-right: 13px;
+
 }
 footer{
     clear: both;
@@ -61,4 +69,21 @@ section{
 h2{
     font-size: 20px;
     font-weight: bold ;
+    
+}
+button{
+    color: white;
+    background-color: black;
+    border:currentColor;
+    padding: 20px 30px;
+    width:150px;
+    margin-left:720px ;
+    position: relative;
+    bottom:53px;
+    border-radius: 5px;
+    transition: 350ms;
+}
+button:hover{
+    color:red;
+    background-color: darkgrey;
 }
