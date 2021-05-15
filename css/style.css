@@ -1,17 +1,22 @@
+ body{
+     margin:0 auto;
+ }
  header{
     background-color:grey;
     height:90px;
-    margin-bottom:100px;
+    margin:30px;
 }
 
  header img{
     float: left;
     padding-top: 10px;
-    margin-left:195px;
+    margin-left:165px;
     
 }
 nav ul li a{
     color: white;
+    text-decoration: none;
+    margin:30px;
 }
 li{
     display: inline-block;
@@ -49,7 +54,7 @@ article:nth-child(3) button{
 }
 article:nth-child(3) p{
     overflow:auto;
-    height: 300px;
+    height: 350px;
     position: relative;
 }
 
@@ -62,9 +67,10 @@ footer{
     clear: both;
     background-color:grey;
     height:90px;
+    margin:30px;
 }
 section{
-    margin:50px
+    margin:30px
 }
 h2{
     font-size: 20px;
